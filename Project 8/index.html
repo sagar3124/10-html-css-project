@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Javascript Documentation</h1>
+        <ul>
+          <a href="#Introduction"><li>Introduction</li></a>
+          <a href="#What_you_should_already_know"
+            ><li>What you should already know</li></a
+          >
+          <a href="#JavaScript_and_Java"><li>JavaScript and Java</li></a>
+          <a href="#Hello_world"><li>Hello world</li></a>
+          <a href="#Variables"><li>Variables</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+          <p>
+            JavaScript (JS) is a lightweight, interpreted, or just-in-time
+            compiled programming language with first-class functions. While it
+            is most well-known as the scripting language for Web pages, many
+            non-browser environments also use it, such as Node. js, Apache
+            CouchDB and Adobe Acrobat. JavaScript is a prototype-based,
+            multi-paradigm, single-threaded, dynamic language, supporting
+            object-oriented, imperative, and declarative (e.g. functional
+            programming) styles. Read more about JavaScript.
+          </p>
+
+          <p>
+            The standards for JavaScript are the ECMAScript Language
+            Specification (ECMA-262) and the ECMAScript Internationalization API
+            specification (ECMA-402). As soon as one browser implements a
+            feature, we try to document it. This means that cases where some
+            proposals for new ECMAScript features have already been implemented
+            in browsers, documentation and examples in MDN articles may use some
+            of those new features. Most of the time, this happens between the
+            stages 3 and 4, and is usually before the spec is officially
+            published.
+          </p>
+          <ul>
+            <li>
+              Do not confuse JavaScript with the Java programming language. Both
+              "Java" and "JavaScript" are trademarks or registered trademarks of
+              Oracle in the U.S. and other countries. However, the two
+              programming languages have very different syntax, semantics, and
+              use.
+            </li>
+            <li>
+              JavaScript is a programming language that adds interactivity to
+              your website. This happens in games, in the behavior of responses
+              when buttons are pressed or with data entry on forms; with dynamic
+              styling; with animation, etc. This article helps you get started
+              with JavaScript and furthers your understanding of what is
+              possible.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="What_you_should_already_know">
+        <h2>What you should already know</h2>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>
+              Some programming experience. If you are new to programming, try
+              one of the tutorials linked on the main page about JavaScript.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="JavaScript_and_Java">
+        <h2>JavaScript and Java</h2>
+        <article>
+          <p>
+            JavaScript is versatile and beginner-friendly. With more experience,
+            you'll be able to create games, animated 2D and 3D graphics,
+            comprehensive database-driven apps, and much more.Welcome to the MDN
+            beginner's JavaScript course! In this first article we will look at
+            JavaScript from a high level, answering questions such as "what is
+            it?", and "what is it doing?", and making sure you are comfortable
+            with JavaScript's purpose.Now you've learned something about the
+            theory of JavaScript, and what you can do with it, we are going to
+            give you a crash course on the basic features of JavaScript via a
+            completely practical tutorial. Here you'll build up a simple "Guess
+            the number" game, step by step.
+          </p>
+
+          <p>
+            JavaScript itself is relatively compact, yet very flexible.
+            Developers have written a variety of tools on top of the core
+            JavaScript language, unlocking a vast amount of functionality with
+            minimum effort. These include: Browser Application Programming
+            Interfaces (APIs) built into web browsers, providing functionality
+            such as dynamically creating HTML and setting CSS styles; collecting
+            and manipulating a video stream from a user's webcam, or generating
+            3D graphics and audio samples. Third-party APIs that allow
+            developers to incorporate functionality in sites from other content
+            providers, such as Twitter or Facebook. Third-party frameworks and
+            libraries that you can apply to HTML to accelerate the work of
+            building sites and applications.
+          </p>
+          <p>
+            JavaScript is one of the most popular modern web technologies! As
+            your JavaScript skills grow, your websites will enter a new
+            dimension of power and creativity. However, getting comfortable with
+            JavaScript is more challenging than getting comfortable with HTML
+            and CSS. You may have to start small, and progress gradually. To
+            begin, let's examine how to add JavaScript to your page for creating
+            a Hello world! example.When you built up the "Guess the number" game
+            in the previous article, you may have found that it didn't work.
+            Never fear — this article aims to save you from tearing your hair
+            out over such problems by providing you with some simple tips on how
+            to find and fix errors in JavaScript programs.
+          </p>
+        </article>
+      </section>
+      <section id="Hello_world">
+        <h2>Hello world</h2>
+        <article>
+          To get started with writing JavaScript, open the Scratchpad and write
+          your first "Hello world" JavaScript code:
+          <code
+            >function greetMe(yourName) { alert("Hello " + yourName); }
+            greetMe("World");
+          </code>
+
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your
+          browser!
+        </article>
+      </section>
+      <section id="Variables">
+        <h2>Variables</h2>
+        <article>
+          <p>
+            Go to your test site and create a new folder named scripts. Within
+            the scripts folder, create a new text document called main.js, and
+            save it.This is doing the same job as the link element for CSS. It
+            applies the JavaScript to the page, so it can have an effect on the
+            HTML (along with the CSS, and anything else on the page).A semicolon
+            at the end of a line indicates where a statement ends. It is only
+            required when you need to separate statements on a single line.
+            However, some people believe it's good practice to have semicolons
+            at the end of each statement. There are other rules for when you
+            should and shouldn't use semicolons.
+          </p>
+          <p>
+            A JavaScript identifier must start with a letter, underscore (_), or
+            dollar sign ($); subsequent characters can also be digits (0-9).
+            Because JavaScript is case sensitive, letters include the characters
+            "A" through "Z" (uppercase) and the characters "a" through "z"
+            (lowercase).To give you a better understanding of how JavaScript
+            works, let's explain some of the core features of the language. It's
+            worth noting that these features are common to all programming
+            languages.
+          </p>
+          <p>
+            The heading text changed to Hello world! using JavaScript. You did
+            this by using a function called querySelector() to grab a reference
+            to your heading, and then store it in a variable called myHeading.
+            This is similar to what we did using CSS selectors. When you want to
+            do something to an element, you need to select it first. Following
+            that, the code set the value of the myHeading variable's textContent
+            property (which represents the content of the heading) to Hello
+            world!.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
